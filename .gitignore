@@ -1,5 +1,13 @@
+# Ignorar pastas do Visual Studio
 .vs/
 x64/
-*.suo
+Debug/
+Release/
+
+# Ignorar arquivos intermediários
+*.obj
+*.log
+*.pch
+*.exe
 *.user
-*.VC.db
+*.suo
