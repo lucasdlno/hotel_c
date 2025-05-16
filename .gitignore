@@ -1,13 +1,39 @@
-# Ignorar pastas do Visual Studio
+# Visual Studio
 .vs/
-x64/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
 Debug/
 Release/
+x64/
+x86/
 
-# Ignorar arquivos intermediários
+# Compiled object files
 *.obj
-*.log
-*.pch
+*.o
 *.exe
-*.user
-*.suo
+*.dll
+*.pdb
+
+# Binary data files que você pode querer ignorar (exemplo)
+*.bin
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Others
+*.cache
+*.ilk
+*.idb
+*.ipch
+
+# Ignore backup and temporary files
+*~
+*.tmp
+*.temp
